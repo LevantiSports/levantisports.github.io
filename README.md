@@ -1,5 +1,13 @@
-## Welcome to GitHub Pages
+<html>
 
-You can use the [editor on GitHub](https://github.com/LevantiSports/LevantiSportsHD/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<link rel="stylesheet" href="http://halfwaysports.a0001.net/ASSETS/CSS/embedTwitchCSS.css" />
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div class="twitchStream">
+<iframe src="http://levantisports.x10host.com/bein11" width="100" height="100" scrolling="no"  frameborder="0" allowfullscreen="true"></iframe>
+</div>
+
+<div class="twitchChat">
+<iframe src="https://www.twitch.tv/embed/halfwaysports/chat" width="600" height="300"  frameborder="0" scrolling="no"></iframe>
+</div>
+
+<html>
