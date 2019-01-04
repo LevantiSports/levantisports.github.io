@@ -1,0 +1,31 @@
+<head>
+<body style="margin:0px;padding:0px;">
+<script src='https://cdn.jsdelivr.net/clappr/latest/clappr.min.js' type='text/javascript'></script>
+<script src='https://cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js'></script>
+ <div id="player"></div>        
+                <script>
+                        $(function () {
+                            $("#player").resize({
+                                aspectRatio: 16 / 9,
+                                maxHeight: 1000,
+                                maxWidth: 728,
+                                minHeight: 180,
+                                minWidth: 320
+                            });
+                            var player = new Clappr.Player({
+                                source: 'https://easyff1.azureedge.net/QualityLevels(3500000)/Manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8',
+                                poster: '',
+                                mute: false,
+                                plugins: [Clappr.FlasHLS,LevelSelector],
+                                disableVideoTagContextMenu: true,
+                                autoPlay: true,
+                                mediacontrol: {seekbar: "#0dff00", buttons: "#FFF"},
+                                parentId: "#player",
+                                height: "100%",
+                                width: "100%",
+                            });
+                        });
+                    </script>
+
+</body>
+</head>
